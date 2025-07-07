@@ -87,6 +87,46 @@
       "name": "CRU Hero Slider",
       "settings": {}
     },
+    "cru_stack_XTgy9K": {
+      "type": "cru-stack",
+      "blocks": {
+        "text_CzdnGF": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to Clarendon Hills",
+            "id": "",
+            "class": "centered header"
+          }
+        },
+        "textarea_rgpRnU": {
+          "type": "textarea",
+          "settings": {
+            "textarea": "Roman Bratasiuk founded Clarendon Hills in 1990 and embarked on a journey that would irreversibly change the landscape of the Australian wine industry. Trained as a Biochemist, Roman taught himself how to make wine. Roman’s deeply prophetic vision saw him introduce the single vineyard concept to Australian wine in 1990. Roman also pioneered the Australian Grenache category with the release of Australia’s first single vineyard, 100% Grenache: the 1991 Clarendon Hills Blewitt Springs Grenache. Roman also unearthed and discovered one of Australia’s greatest single vineyards with his discovery of the Astralis Syrah vineyard in Blewitt Springs in 1990. Roman’s undying dedication to his craft over the last 34 years and persistent pragmatic refinement across the last 3 decades has seen Clarendon Hills develop a world-wide, first-class reputation. Roman’s relentless work highlighting these remarkable old vine Grenache, Syrah and Cabernet vineyards spread throughout the Blewitt Springs and Clarendon sub districts is something to behold.",
+            "id": "",
+            "class": "centered content-txt"
+          }
+        },
+        "url_dMRMVK": {
+          "type": "url",
+          "settings": {
+            "link": "#",
+            "label": "Shop Now",
+            "id": "",
+            "class": "button"
+          }
+        }
+      },
+      "block_order": [
+        "text_CzdnGF",
+        "textarea_rgpRnU",
+        "url_dMRMVK"
+      ],
+      "name": "CRU Stack",
+      "settings": {
+        "id": "",
+        "class": "in-grid"
+      }
+    },
     "163221535239da03ba": {
       "type": "spotlight-block",
       "blocks": {
@@ -1330,6 +1370,7 @@
   },
   "order": [
     "cru_hero_slider_KpMyGM",
+    "cru_stack_XTgy9K",
     "163221535239da03ba",
     "163247026462da6862",
     "16323855104e3e74f6",
