@@ -121,3 +121,7 @@ a.hero_slider_prev:before {
 .hero_main_container .slick-arrow {
     display: none!important;
 }
+
+.hero_main_container.slick-initialized.slick-slider.slick-dotted {
+    margin-bottom: 0;
+}

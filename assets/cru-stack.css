@@ -1,0 +1,38 @@
+.in-grid {
+    max-width: 750px;
+    padding: 115px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+.header {
+    font-size: 40px;
+    color: #231f20;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.header:after {
+    content: '';
+    width: 95px;
+    display: block;
+    height: 1px;
+    background-color: #000;
+    margin: 24px auto 0;
+}
+
+.content-txt {
+    margin-top: 24px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 23px;
+    color: #231f20;
+}
+
+a.button {
+    max-width: fit-content;
+}
