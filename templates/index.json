@@ -156,16 +156,23 @@
         "id": "",
         "class": ""
       }
+    },
+    "cru_latest_blogs_x3qDDL": {
+      "type": "cru-latest-blogs",
+      "name": "CRU Latest Blogs",
+      "settings": {
+        "section_id": "",
+        "section_class": "",
+        "nmbr_post": 3,
+        "show_btn": false,
+        "btn_txt": ""
+      }
     }
   },
   "order": [
     "cru_hero_slider_KpMyGM",
-    "163221535239da03ba",
-    "163247026462da6862",
-    "16323855104e3e74f6",
-    "16328142266b504c78",
-    "1632296224c9e90203",
-    "1632304586ad9b5b3b",
-    "1632364695b0f88b4f"
+    "cru_stack_XTgy9K",
+    "cru_stack_qGa7De",
+    "cru_latest_blogs_x3qDDL"
   ]
 }
