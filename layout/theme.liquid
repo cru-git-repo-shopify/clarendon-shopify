@@ -105,8 +105,10 @@
         {% comment %} CRU's additionals {% endcomment %}
          {{ 'cru-header.css' | asset_url | stylesheet_tag }}
          {{ 'cru-footer.css' | asset_url | stylesheet_tag }}
+         {{ 'cru-general-css.css' | asset_url | stylesheet_tag }}
          {{ 'cru-hero-slider.css' | asset_url | stylesheet_tag }}
          {{ 'cru-stack.css' | asset_url | stylesheet_tag }}
+         {{ 'cru-latest-blogs.css' | asset_url | stylesheet_tag }}
          {{ 'cru-header.js' | asset_url | script_tag }}
          {{ 'cru-hero-slider.js' | asset_url | script_tag }}
          {{ 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css' | stylesheet_tag }}
