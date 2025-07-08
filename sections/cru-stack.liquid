@@ -1,33 +1,33 @@
 <div id="{{ section.settings.id }}" class="stack {{ section.settings.class }}">
     {% for block in section.blocks %}
-    <div class="block-{{ block.type }}">
+    <div class="block-{{ block.type }} {{ block.settings.class }}" id="{{ block.settings.id }}">
         {% case block.type %}
         {% when 'text' %}
-            <p id="{{ block.settings.id }}" class="{{ block.settings.class }}">{{ block.settings.text }}</p>
+            <p >{{ block.settings.text }}</p>
         {% when 'textarea' %}
-            <p id="{{ block.settings.id }}" class="{{ block.settings.class }}">{{ block.settings.textarea }}</p>
+            <p >{{ block.settings.textarea }}</p>
         {% when 'richtext' %}
             {{ block.settings.richtext }}
         {% when 'image' %}
-            <img id="{{ block.settings.id }}" class="{{ block.settings.class }}" src="{{ block.settings.image | image_url: 'medium' }}" alt="">
+            <img  src="{{ block.settings.image | image_url: 'medium' }}" alt="">
         {% when 'video' %}
-            <iframe id="{{ block.settings.id }}" class="{{ block.settings.class }}" src="{{ block.settings.video_url }}" frameborder="0" allowfullscreen></iframe>
+            <iframe  src="{{ block.settings.video_url }}" frameborder="0" allowfullscreen></iframe>
         {% when 'url' %}
-            <a id="{{ block.settings.id }}" class="{{ block.settings.class }}" href="{{ block.settings.link }}">{{ block.settings.label }}</a>
+            <a  href="{{ block.settings.link }}">{{ block.settings.label }}</a>
         {% when 'color' %}
-            <div id="{{ block.settings.id }}" class="{{ block.settings.class }}" style="background-color: {{ block.settings.color }}; width: 50px; height: 50px;"></div>
+            <div  style="background-color: {{ block.settings.color }}; width: 50px; height: 50px;"></div>
         {% when 'select' %}
-            <p id="{{ block.settings.id }}" class="{{ block.settings.class }}">Selected: {{ block.settings.select }}</p>
+            <p >Selected: {{ block.settings.select }}</p>
         {% when 'product' %}
             {% assign product = all_products[block.settings.product] %}
-            <p id="{{ block.settings.id }}" class="{{ block.settings.class }}">{{ product.title }}</p>
+            <p >{{ product.title }}</p>
         {% when 'collection' %}
             {% assign collection = collections[block.settings.collection] %}
-            <p id="{{ block.settings.id }}" class="{{ block.settings.class }}">{{ collection.title }}</p>
+            <p >{{ collection.title }}</p>
         {% when 'blog' %}
-            <p id="{{ block.settings.id }}" class="{{ block.settings.class }}">Blog: {{ block.settings.blog }}</p>
+            <p >Blog: {{ block.settings.blog }}</p>
         {% when 'article' %}
-            <p id="{{ block.settings.id }}" class="{{ block.settings.class }}">Article: {{ block.settings.article }}</p>
+            <p >Article: {{ block.settings.article }}</p>
         {% when 'page' %}
             <p>Page: {{ block.settings.page }}</p>
         {% when 'html' %}
