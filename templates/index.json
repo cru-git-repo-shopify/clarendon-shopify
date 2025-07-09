@@ -747,6 +747,29 @@
         "mg_bottom_tablet": 50,
         "mg_bottom_mobile": 50
       }
+    },
+    "cru_newsletter_YtA4yq": {
+      "type": "cru-newsletter",
+      "name": "CRU Newsletter",
+      "settings": {
+        "section_id": "",
+        "section_class": "",
+        "title": "Become a Cellar Member",
+        "description": "Sign up to become and Clarendon Hills Cellar Member and receive up to 15% off all products in our shop, larger discounts for regular pack offers, access to member only packs and specials, new releases and member only content.",
+        "show_first_name": true,
+        "first_name_placeholder": "First Name",
+        "show_first_name_label": false,
+        "show_last_name": true,
+        "last_name_placeholder": "Last Name",
+        "show_last_name_label": false,
+        "show_phone": false,
+        "phone_placeholder": "Enter your phone number",
+        "show_phone_label": false,
+        "email_placeholder": "Email",
+        "show_email": true,
+        "show_email_label": false,
+        "submit_button_text": "Join Us"
+      }
     }
   },
   "order": [
@@ -760,6 +783,7 @@
     "product_block_GdL7EW",
     "image_banner_8eWBiH",
     "cru_stack_pUnwNe",
-    "product_block_baNK86"
+    "product_block_baNK86",
+    "cru_newsletter_YtA4yq"
   ]
 }
