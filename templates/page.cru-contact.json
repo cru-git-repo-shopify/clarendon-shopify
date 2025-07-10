@@ -51,7 +51,7 @@
         "show_email": true,
         "email_placeholder": "Email",
         "show_message": true,
-        "message_placeholder": "Enter your message",
+        "message_placeholder": "Please leave us a detailed message here.",
         "show_submit_button": true,
         "submit_button_text": "Send Message"
       }
