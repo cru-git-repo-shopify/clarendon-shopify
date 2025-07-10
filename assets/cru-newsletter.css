@@ -27,6 +27,7 @@
     letter-spacing: 0;
     background-color: #fff;
     width: 100%;
+    background: #fff !important;
 }
 
 .cru_newsletter {

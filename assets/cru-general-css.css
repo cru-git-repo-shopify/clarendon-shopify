@@ -35,3 +35,6 @@ div#terrior {
     display: block;
     z-index: 1;
 }
+main#MainContent {
+    padding: 0;
+}
