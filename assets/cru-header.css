@@ -337,6 +337,28 @@ header i {
     gap: 15px;
 }
 
+.page-subheading {
+    width: 90%;
+    margin: 48px auto 24px;
+    align-items: normal !important;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.stack.page_header_container .wp-block-column {
+    flex-basis: 66.66%;
+}
+
+.stack.page_header_container .wp-block-column.btn_col {
+    flex-basis: 33.33%;
+}
+
+.stack.page_header_container p.page_title_text {
+    font-size: 18px;
+    margin: 0;
+}
+
 @media only screen and (max-width: 768px) {
     .right-popup-menu,.left-popup-menu {
         max-width:100%

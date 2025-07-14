@@ -39,7 +39,7 @@ div#contact-section {
     margin-bottom: 60px;
 }
 
-.block-text.page_title {
+.stack.page_header_container {
     padding-bottom: 90px;
     margin-bottom: 0;
     padding-top: 242px;
