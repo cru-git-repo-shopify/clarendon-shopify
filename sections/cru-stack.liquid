@@ -34,6 +34,17 @@
             {{ block.settings.html }}
         {% when 'liquid' %}
             {{ block.settings.liquid_code }}
+        {% when 'custom' %}
+          <div class="page-subheading {{ block.settings.section_class }}" id="{{ block.settings.section_id }}">
+          <div class="wp-block-column">
+              <p class="page_title_text">{{ block.settings.subheading }}</p>
+              </div>
+              {% if block.settings.has_button %}
+                  <div class="wp-block-column btn_col">
+                      <a class="button" href="{{ block.settings.button_link }}" rel="">{{ block.settings.button_text }}</a>
+                  </div>
+              {% endif %}
+          </div>
         {% endcase %}
     </div>
     {% endfor %}
@@ -353,6 +364,45 @@
             "type": "text",
             "id": "class",
             "label": "Class"
+        }
+      ]
+    },
+    {
+      "type": "custom",
+      "name": "CRU Page Subheading",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Your Subheading"
+        },
+        {
+          "type": "text",
+          "id": "section_id",
+          "label": "Section ID"
+        },
+        {
+          "type": "text",
+          "id": "section_class",
+          "label": "Section Class"
+        },
+        {
+          "type": "checkbox",
+          "id": "has_button",
+          "label": "Has Button",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link",
+          "default": "/"
         }
       ]
     }
